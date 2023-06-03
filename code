@@ -1,3 +1,13 @@
-a = int(input("bill amount ")) 
-print("15% tip is", (15/100)*a)
-print("20% tip is", (20/100)*a )
+a = int(input("Car Base Price "))
+b=(1/100)*a
+c=(1/100)*a
+d=15
+e=20
+
+print("Tax charge", (3/100)*a)
+print("License charge", (5/100)*a)
+print("Dealer prep charge", 15)
+print("Destination charge", 20)
+
+Totalprice = str(a+b+c+d+e)
+print(Totalprice)
